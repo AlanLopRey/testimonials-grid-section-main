@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="icon"
       type="image/png"
@@ -13,24 +14,21 @@
     />
 
     <title>Frontend Mentor | [Challenge Name Here]</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main class="main">
       <article class="article daniel">
-        <img src="./images/image-daniel.jpg" alt="perfil image" />
-        <span class="article__name">Daniel Clifford</span>
-        <span class="article__active">Verified Graduate</span>
+        <figure class="fig">
+          <img
+            class="fig__img"
+            src="./images/image-daniel.jpg"
+            alt="profile image"
+          />
+          <figcaption class="fig__figcaption">
+            <span class="fig__figcaption--name">Daniel Clifford</span>
+            <span class="fig__figcaption--active">Verified Graduate</span>
+          </figcaption>
+        </figure>
         <h2 class="article__h2">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
@@ -48,9 +46,17 @@
       </article>
 
       <article class="article jonathan">
-        <img src="./images/image-jonathan.jpg" alt="perfil image" />
-        <span class="article__name">Jonathan Walters</span>
-        <span class="article__active">Verified Graduate</span>
+        <figure class="fig">
+          <img
+            class="fig__img"
+            src="./images/image-jonathan.jpg"
+            alt="profile image"
+          />
+          <figcaption class="fig__figcaption">
+            <span class="fig__figcaption--name">Jonathan Walters</span>
+            <span class="fig__figcaption--active">Verified Graduate</span>
+          </figcaption>
+        </figure>
         <h2 class="article__h2">
           The team was very supportive and kept me motivated
         </h2>
@@ -62,9 +68,17 @@
       </article>
 
       <article class="article jeanette">
-        <img src="./images/image-jeanette.jpg" alt="perfil image" />
-        <span class="article__name">Jeanette Harmon</span>
-        <span class="article__active">Verified Graduate</span>
+        <figure class="fig">
+          <img
+            class="fig__img"
+            src="./images/image-jeanette.jpg"
+            alt="profile image"
+          />
+          <figcaption class="fig__figcaption">
+            <span class="fig__figcaption--name">Jeanette Harmon</span>
+            <span class="fig__figcaption--active">Verified Graduate</span>
+          </figcaption>
+        </figure>
         <h2 class="article__h2">
           An overall wonderful and rewarding experience
         </h2>
@@ -75,9 +89,17 @@
       </article>
 
       <article class="article patrick">
-        <img src="./images/image-patrick.jpg" alt="perfil image" />
-        <span class="article__name">Patrick Abrams</span>
-        <span class="article__active">Verified Graduate</span>
+        <figure class="fig">
+          <img
+            class="fig__img"
+            src="./images/image-patrick.jpg"
+            alt="profile image"
+          />
+          <figcaption class="fig__figcaption">
+            <span class="fig__figcaption--name">Patrick Abrams</span>
+            <span class="fig__figcaption--active">Verified Graduate</span>
+          </figcaption>
+        </figure>
         <h2 class="article__h2">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
@@ -94,9 +116,17 @@
       </article>
 
       <article class="article kira">
-        <img src="./images/image-kira.jpg" alt="perfil image" />
-        <span class="article__name">Kira Whittle</span>
-        <span class="article__active">Verified Graduate</span>
+        <figure class="fig">
+          <img
+            class="fig__img"
+            src="./images/image-kira.jpg"
+            alt="profile image"
+          />
+          <figcaption class="fig__figcaption">
+            <span class="fig__figcaption--name">Kira Whittle</span>
+            <span class="fig__figcaption--active">Verified Graduate</span>
+          </figcaption>
+        </figure>
         <h2 class="article__h2">
           Such a life-changing experience. Highly recommended!
         </h2>
@@ -116,11 +146,11 @@
       </article>
     </main>
 
-    <div class="attribution">
+    <!-- <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </footer> -->
   </body>
 </html>
