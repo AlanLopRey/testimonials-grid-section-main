@@ -34,8 +34,8 @@ mobile
 
 ### Links
 
-- Solution URL: [Solution URL here]()
-- Live Site URL: [Live site URL here]()
+- Solution URL: [Solution URL here](https://github.com/AlanLopRey/testimonials-grid-section-main)
+- Live Site URL: [Live site URL here](https://alanloprey.github.io/testimonials-grid-section-main/)
 
 ## My process
 
