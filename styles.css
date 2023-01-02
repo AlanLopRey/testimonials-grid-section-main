@@ -65,26 +65,31 @@ body {
   margin: 10vh 0 10vh 0;
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: hsl(210deg, 46%, 95%);
 }
 
 .main {
   display: grid;
   grid-template-rows: repeat(5, 100%);
-  grid-template-columns: 20.625rem;
+  grid-template-columns: 84vw;
   row-gap: 2rem;
   column-gap: 2rem;
 }
 
 .article {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   padding: 1.25rem 1.875rem;
   text-align: left;
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 0.625rem;
 }
 .article__h2 {
   line-height: 1.25;
   margin-bottom: 0.9375rem;
+}
+.article__p {
+  color: hsl(0deg, 0%, 81%);
 }
 
 .fig {
@@ -97,17 +102,51 @@ body {
   display: flex;
   flex-direction: column;
 }
+.fig__figcaption--active {
+  color: hsl(0deg, 0%, 81%);
+}
 .fig__img {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  border: 2px solid violet;
+  border: 3px solid hsla(260deg, 90%, 80%, 0.5);
 }
 
 .daniel {
   background-image: url(./images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: 90% 0%;
+  background-color: hsl(263deg, 55%, 52%);
+}
+.daniel__img {
+  border: 3px solid hsla(260deg, 90%, 80%, 0.5);
+}
+.daniel__verified {
+  color: hsla(260deg, 90%, 80%, 0.5);
+}
+
+.jonathan {
+  background-color: hsl(217deg, 19%, 35%);
+}
+
+.jeanette {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(219deg, 29%, 14%);
+}
+.jeanette__p {
+  color: hsl(0deg, 0%, 81%);
+}
+
+.patrick {
+  background-color: hsl(219deg, 29%, 14%);
+}
+
+.kira {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(217deg, 19%, 35%);
+}
+.kira__p {
+  color: hsl(0deg, 0%, 81%);
 }
 
 @media screen and (min-width: 900px) {
